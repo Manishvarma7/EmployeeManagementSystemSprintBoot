@@ -21,7 +21,7 @@ public class EmployeeEntity {
     //Here data present of the employees contain sensitive info like password of employee etc
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)// this will take care of incrementing the ID
     private Long Id;
 
     private String name;
